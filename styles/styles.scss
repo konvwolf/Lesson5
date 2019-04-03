@@ -839,6 +839,19 @@ header {
         margin-bottom: 10px;
     }
 
+    a {
+        text-decoration: none;
+        color: black;
+
+        @media (max-width: $width_1600) {
+            color: #f2f2f2;
+        }
+    }
+
+    a:hover {
+        color: #f05b33;
+    }
+
     div:not(:last-child) {
         margin-bottom: 25px;
     }

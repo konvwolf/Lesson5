@@ -757,6 +757,18 @@ header .disclaimer .readMore:hover {
   color: #f05b33;
   margin-bottom: 10px;
 }
+.contacts a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 1600px) {
+  .contacts a {
+    color: #f2f2f2;
+  }
+}
+.contacts a:hover {
+  color: #f05b33;
+}
 .contacts div:not(:last-child) {
   margin-bottom: 25px;
 }
